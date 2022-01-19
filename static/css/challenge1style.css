@@ -1,0 +1,35 @@
+.container-5{
+    border: 1px solid black;
+    width : 65%;
+    text-align: center;
+    margin:0 auto;
+}
+ .flex-box-container5-2, .flex-box-container5, .flex-box-container5-3{
+    display: flex;
+    border: 2px solid black;
+    padding:10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+.flex-box-container5{
+   color:white;
+}
+.flex-box-container5 div{
+    height:350px;
+    border: 1px solid black;
+    text-align: center;
+    padding:10px;
+    flex:1;
+}
+.flex-box-container5 img{
+    width: 25%;
+    padding : 10px;
+
+}
+.flex-box-container5-2 button{
+    border: 1px solid black;
+}
+

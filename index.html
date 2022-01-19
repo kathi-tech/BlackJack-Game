@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel= "stylesheet" href="static/css/challenge1.css">
+   <link rel = "stylesheet" href = "static/css/challenge1style.css">
+    <title>JS </title>
+</head>
+<body>
+   
+    <div class = "container-5">
+        <h2>Challenge  : BlackJack</h2>
+        <h3><span id="bj-res"> Lets play</span></h3>
+        <div class="flex-box-container5" id = "flex-box-container5-id" style = "background-image: url('static/images/download.jpg');">
+            <div id = "your-box">
+                <h2>You:<span id="your-res">0</h2>
+            </div>
+            <div id = "dealer-box">
+                <h2>dealer:<span id="dealer-res">0</h2>
+            </div>
+        </div>
+        <div  class="flex-box-container5-2">
+            <button class = "btn btn-primary" id= "hitb"> Hit</button>
+            <button class = "btn btn-warning" id = "standb"> Stand</button>
+            <button class = "btn btn-danger" id= "dealb"> Deal</button>
+        </div>
+        <div  class="flex-box-container5-3">
+            <table style="border: 1px solid black;">
+                <tr>
+                   <th>
+                       wins
+                   </th>
+                   <th>
+                       Losses
+                   </th>
+                   <th>
+                       Draws
+                   </th>
+                </tr>
+                <tr>
+                    <td><span id = "wins">0</span></td>
+                    <td><span id = "losses">0</span></td>
+                    <td><span id = "draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </body>
+    <script src = "static/js/script.js">
+
+    </script>
+</body>
+</html>
